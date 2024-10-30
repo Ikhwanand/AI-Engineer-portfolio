@@ -1,5 +1,5 @@
-import {projects} from '../constants';
-import { ExternalLink } from 'lucide-react';
+import { projects } from "../constants";
+import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (

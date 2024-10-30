@@ -1,7 +1,5 @@
-import React from "react";
 import { Brain, Cpu } from "lucide-react";
-import {aiSkills, techSkills} from '../constants';
-
+import { aiSkills, techSkills } from "../constants";
 
 const Skills = () => {
   return (

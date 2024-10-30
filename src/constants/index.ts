@@ -1,4 +1,10 @@
-export const projects = [
+export interface Project {
+  title: string;
+  description: string;
+  tech: string[];
+}
+
+export const projects: Project[] = [
   {
     title: "Neural Network Framework",
     description:
@@ -36,7 +42,12 @@ export const projects = [
   },
 ];
 
-export const aiSkills = [
+export interface Skill {
+  name: string;
+  level: number;
+}
+
+export const aiSkills: Skill[] = [
   { name: "Deep Learning", level: 95 },
   { name: "Computer Vision", level: 90 },
   { name: "Natural Language Processing", level: 85 },
@@ -44,10 +55,12 @@ export const aiSkills = [
   { name: "MLOps", level: 85 },
 ];
 
-export const techSkills = [
+export const techSkills: Skill[] = [
   { name: "Python", level: 95 },
   { name: "PyTorch/TensorFlow", level: 90 },
   { name: "Docker/Kubernetes", level: 85 },
   { name: "React/TypeScript", level: 80 },
   { name: "CI/CD", level: 85 },
 ];
+
+
